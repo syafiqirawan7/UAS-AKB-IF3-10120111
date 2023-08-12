@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/u_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Title"
+        android:fontFamily="@font/alata"
+        android:textStyle="bold"
+        android:padding="13dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/u_note_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Category"
+        android:fontFamily="@font/alata"
+        android:padding="13dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/u_note_description"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Description"
+        android:inputType="text"
+        android:padding="13dp" />
+
+    <Button
+        android:id="@+id/u_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/archivo_bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/u_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Back" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasUAS_10120111</string>
+    <string name="title_home">Profile</string>
+    <string name="title_note">Notes</string>
+    <string name="title_information">Informations</string>
+    <string name="title_activity_splash_screen">10120111 Syafiq Pramana Irawan</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+</resources>
